@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
-        "allauth"
+        "allauth",
+        "corecss",
+        "corejs",
+        "postloadjs"
     ],
     "cSpell.ignoreWords": [
         "socialaccount"
