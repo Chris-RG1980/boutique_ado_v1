@@ -24,16 +24,6 @@
         {% block extra_css %}
         {% endblock %}
 
-        <title>Boutique Ado {% block extra_title %}{% endblock %}</title>
-    </head>
-    <body>
-
-      <header class="container-fluid fixed-top"></header>
-
-      {% if messages %}
-      <div class="message-container"></div>
-      {% endif %}
-
         {% block corejs %}
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
@@ -47,5 +37,26 @@
 
         {% block extra_js %}
         {% endblock %}
+
+        <title>Boutique Ado {% block extra_title %}{% endblock %}</title>
+    </head>
+    <body>
+
+        <header class="container-fluid fixed-top"></header>
+
+        {% block page_header %}
+        {% endblock %}
+
+        {% if messages %}
+        <div class="message-container"></div>
+        {% endif %}
+
+        {% block content %}
+        {% endblock %}
+
+        {% block postloadjs %}
+        {% endblock %}
+
+
     </body>
 </html>
