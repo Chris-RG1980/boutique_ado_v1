@@ -1,4 +1,11 @@
 {
-    "cSpell.words": ["allauth", "Bulma", "corecss", "corejs", "postloadjs"],
+    "cSpell.words": [
+        "allauth",
+        "Bulma",
+        "corecss",
+        "corejs",
+        "forloop",
+        "postloadjs"
+    ],
     "cSpell.ignoreWords": ["socialaccount"]
 }
