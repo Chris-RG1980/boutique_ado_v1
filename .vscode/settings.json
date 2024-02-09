@@ -4,6 +4,7 @@
         "Bulma",
         "corecss",
         "corejs",
+        "csrfmiddlewaretoken",
         "forloop",
         "postloadjs"
     ],
