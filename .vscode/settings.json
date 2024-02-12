@@ -6,6 +6,8 @@
         "corejs",
         "csrfmiddlewaretoken",
         "forloop",
+        "lineitem",
+        "lineitems",
         "postloadjs"
     ],
     "cSpell.ignoreWords": ["socialaccount"]
