@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 
-# Import environment variables
+# Import environment letiables
 if os.path.exists("env.py"):
     import env  # noqa
 
