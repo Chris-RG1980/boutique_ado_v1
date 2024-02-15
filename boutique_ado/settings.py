@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['boutique-ado-chris.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['localhost', 'boutique-ado-chris-31c5e7838bcb.herokuapp.com']
 
 # Stripe Payment system
 STRIPE_CURRENCY = 'usd'
