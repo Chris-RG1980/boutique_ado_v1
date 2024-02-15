@@ -1,0 +1,1 @@
+web: gunicorn boutique-ado-chris.wsgi:application

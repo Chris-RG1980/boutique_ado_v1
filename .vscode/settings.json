@@ -8,14 +8,17 @@
         "corecss",
         "corejs",
         "csrfmiddlewaretoken",
+        "eqiphrmy",
         "forloop",
+        "gunicorn",
         "Iyrk",
         "Kqpx",
         "letiables",
         "lineitem",
         "lineitems",
         "Neue",
-        "postloadjs"
+        "postloadjs",
+        "wsgi"
     ],
     "cSpell.ignoreWords": ["socialaccount"]
 }
